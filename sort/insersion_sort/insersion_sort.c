@@ -11,30 +11,21 @@ void accept(int a[],int n)
 }
 void insersion_sort(int a[],int n)
 {
-    int t,i,j;
-
-    for( i=1;i<n;++i)
+    int temp;
+    for(int i=1;i<n;i++)
     {
-         t = a[i];
-
-        for( j=i-1;j>=0;--j)
+        temp=a[i];
+        for(int j=i-1;j>=0;--j)
         {
             if(a[j]>t)
             {
                 a[j+1]=a[j];
-                
-
             }
             else
-            {
                 break;
-            }
-        
-
+        }
+        a[j+1]=temp;
     }
-        a[j+1]=t;
-
-}
 }
 
 void display(int a[],int n)
