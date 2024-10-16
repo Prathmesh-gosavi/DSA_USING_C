@@ -1,0 +1,2 @@
+mumbai, 80
+pune, 40

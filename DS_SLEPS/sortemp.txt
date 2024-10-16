@@ -1,0 +1,3 @@
+prathmesh,20
+shreyash,30
+raj,60

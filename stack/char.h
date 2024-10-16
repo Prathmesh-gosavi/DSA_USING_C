@@ -34,16 +34,19 @@ int isfull()
 	}
 }
 
+void push(char data)
+{
 	if(isfull())
 	{
 		printf("STACK IS OVERFLOW" );
+		return;
 	}
 	else
 	{
 		TOP++;
 		stack[TOP]=data;
 	}
-
+}
 
 char pop()
 {
