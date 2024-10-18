@@ -103,6 +103,9 @@ Iteration = 6 x1= -9.42485865376524 and f(x1)= 1.017479777190057e-11
 Required root is : -9.42485865376524
 
 
+
+
+
 Q.6) Write a python program to estimate a root of an equation 𝑥 6 − 𝑥 4 − 𝑥 3 − 1 = 0
 in [1, 2] using Regula Falsi method correct upto 3 decimal places.
 Program:
