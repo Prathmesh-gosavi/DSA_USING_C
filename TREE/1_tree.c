@@ -49,6 +49,7 @@ void bst(int item)
 			}
 
 		}
+		
 		if(item<=t2->data)
 		{
 			t2->lc=t;

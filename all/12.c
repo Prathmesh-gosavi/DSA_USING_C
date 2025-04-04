@@ -24,6 +24,9 @@ simpsons13(f,0,10,40)
 OUTPUT:
 Simpson 1/3rd Result : 1.2644151038948792
 5
+
+
+
 Q.2 Write a python program to evaluate ∫0 𝑒 𝑥 𝑑𝑥 by Simpson’s (1/3)rd rule
 by considering 8 equal intervals.
 Program:

@@ -164,6 +164,27 @@ void Display_nonleaf_node(struct node *t)
 	}
 }
 
+int search(struct node *t,int key)
+{
+	while(t!=NULL)
+	{
+		if(key == t->data)
+		{
+			return 1;
+		}
+		else if(key <= t->data)
+		{
+			t=t->lc;
+		}
+		else
+		{
+			t=t->rc;
+		}
+	}
+	return 0;
+}
+
+
 int main()
 {
 	init();
@@ -209,7 +230,19 @@ int main()
 	printf("\nDisplay Nonleaf node:");
 	Display_nonleaf_node(root);
 
-	printf("");
+	int key;
+	printf("\nenter the data to search:");
+	scanf("%d",&key);
+
+	if(search(root,key))
+	{
+		printf("\n data is found ");
+
+	}
+	else
+	{
+		printf("\n data is not found");
+	}
 
 
 
